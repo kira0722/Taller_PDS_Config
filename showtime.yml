@@ -1,9 +1,13 @@
 server:
   servlet:
     context-path: /api/v1/poli
-  port: 9081
+  port: 9083
 spring:
   application:
     name: showtime
   profiles:
     active: dev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9010/eureka/
