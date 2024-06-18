@@ -28,4 +28,4 @@ spring:
         - id: showtime
           uri: lb://showtime
           predicates:
-            - Path=/api/v1/poli/showtime/**
+            - Path=/api/v1/poli/showtimes/**
